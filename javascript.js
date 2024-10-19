@@ -85,3 +85,15 @@ console.log(calculateDiscount(false, 11, true));
 console.log(calculateDiscount(false, 11, false));
 console.log(calculateDiscount(false, 1, true));
 console.log(calculateDiscount(false, 1, false));
+
+//Kiểm thử theo độ phủ all-uses
+console.log("Kiểm thử theo độ phủ all-uses:");
+console.log(calculateDiscount(true, -1, true));
+console.log(calculateDiscount(true, 11, true));
+console.log(calculateDiscount(true, 11, false));
+console.log(calculateDiscount(true, 1, true));
+console.log(calculateDiscount(true, 1, false));
+console.log(calculateDiscount(false, 11, true));
+console.log(calculateDiscount(false, 11, false));
+console.log(calculateDiscount(false, 1, true));
+console.log(calculateDiscount(false, 1, false));
